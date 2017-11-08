@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slide {
+    width: 100%;
+    height: 300px;
+}
+
+.slider1 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../imagem/imagem1.jpg");
+    transition: all 2s;
+}
+
+.slider2 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../imagem/imagem2.jpg");
+    transition: all 2s;
+}
+
+.slider3 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../imagem/imagem3.jpg");
+    transition: all 2s;
+}
+
+.esconder {
+    display: none;
+}
